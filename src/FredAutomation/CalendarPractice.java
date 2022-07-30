@@ -9,15 +9,40 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class CalendarPractice {
+	
+	WebDriver driver;
+	
+	@BeforeClass
 
-	public static void main(String[] args){
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\iruborf\\Eclipse\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		driver.manage().window().maximize();
-		
+		static void setupAll() {
+    	WebDriverManager.chromedriver().setup();
+	}
+	@BeforeMethod
+		void setup() {
+    	driver = new ChromeDriver();
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+	driver.manage().window().maximize();
+	}
+
+    @AfterMethod
+	  void teardown() {
+   
+    	driver.quit();
+	}
+    
+    
+    @Test
+	public void calendarPractice()
+	{
+	
 		driver.get("https://www.globalsqa.com/demo-site/datepicker/");
 		
 		String desiredDay = "30";

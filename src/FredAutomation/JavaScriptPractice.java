@@ -8,16 +8,42 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class JavaScriptPractice {
+	
+	WebDriver driver;
+	
+	@BeforeClass
 
-	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\iruborf\\Eclipse\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		driver.manage().window().maximize();
-		
+		static void setupAll() {
+    	WebDriverManager.chromedriver().setup();
+	}
+	@BeforeMethod
+		void setup() {
+		ChromeOptions options = new ChromeOptions();
+		options.setAcceptInsecureCerts(true);
+    	driver = new ChromeDriver(options);
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+	driver.manage().window().maximize();
+	}
+
+    @AfterMethod
+	  void teardown() {
+   
+    	driver.quit();
+	}
+
+    @Test
+	public void jsPractice() throws InterruptedException {
+
 		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0,300)");

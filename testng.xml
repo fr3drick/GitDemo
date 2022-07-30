@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" thread-count="3" name="Suite">
+  <test  name="RelativeLoc">
+    <classes>
+      <class name="FredAutomation.RelativeLoc"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="SortedTable">
+    <classes>
+      <class name="FredAutomation.SortedTable"/>
+    </classes>
+  </test> <!-- Test -->
+  
+      <test name="NewTab">
+    <classes>
+      <class name="FredAutomation.NewTab"/>
+    </classes>
+  </test> <!-- Test -->
+  
+      <test name="ChromeOps">
+    <classes>
+      <class name="FredAutomation.ChromeOps"/>
+    </classes>
+  </test> <!-- Test -->
+  
+      <test name="FilterTable">
+    <classes>
+      <class name="FredAutomation.FilterTable"/>
+    </classes>
+  </test> <!-- Test -->
+  
+      <test name="StreamsJ">
+    <classes>
+      <class name="FredAutomation.StreamsJ"/>
+    </classes>
+  </test> <!-- Test -->
+  
+      <test name="CalendarPractice">
+    <classes>
+      <class name="FredAutomation.CalendarPractice"/>
+    </classes>
+  </test> <!-- Test -->
+  
+      <test name="AutomationPractice">
+    <classes>
+      <class name="FredAutomation.AutomationPractice"/>
+    </classes>
+  </test> <!-- Test -->
+  
+      <test name="MiscFunc">
+    <classes>
+      <class name="FredAutomation.MiscFunc"/>
+    </classes>
+  </test> <!-- Test -->
+  
+      <test name="JavaScriptPractice">
+    <classes>
+      <class name="FredAutomation.JavaScriptPractice"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

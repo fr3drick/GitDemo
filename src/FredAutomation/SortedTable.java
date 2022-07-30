@@ -10,18 +10,41 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class SortedTable {
+	
+	WebDriver driver;
+	
+	@BeforeClass
 
-	public static void main(String[] args) {
-
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\iruborf\\Eclipse\\chromedriver.exe");
+		static void setupAll() {
+    	WebDriverManager.chromedriver().setup();
+	}
+	@BeforeMethod
+		void setup() {
 		ChromeOptions options = new ChromeOptions();
 		options.setAcceptInsecureCerts(true);
-		
-		WebDriver driver = new ChromeDriver(options);
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		driver.manage().window().maximize();
+    	driver = new ChromeDriver(options);
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+	driver.manage().window().maximize();
+	}
+
+    @AfterMethod
+	  void teardown() {
+   
+    	driver.quit();
+	}
+
+    @Test
+	public void sortedTables() 
+	{
+
 		
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/offers");
 		driver.findElement(By.xpath("//tr/th[1]")).click();

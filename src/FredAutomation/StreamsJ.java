@@ -6,9 +6,13 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import org.testng.annotations.Test;
+
 public class StreamsJ {
 
-	public static void main(String[] args) {
+	@Test
+	public void streamsJ() 
+	{
 		
 		//regular();
 		
