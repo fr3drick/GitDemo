@@ -9,17 +9,36 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WindowType;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class NewTab {
-
-	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\iruborf\\Eclipse\\chromedriver.exe");
-		ChromeOptions options = new ChromeOptions();
-		options.setAcceptInsecureCerts(true);
-		
-		WebDriver driver = new ChromeDriver(options);
+	WebDriver driver;
+	
+    	@BeforeSuite
+    		static void setupClass() {
+    		static void setupAll() {
+        	WebDriverManager.chromedriver().setup();
+   	}}
+    	@BeforeMethod
+    		void setupTest() {
+  		void setup() {
+        	driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.manage().window().maximize();
+   	}}
+	
+	    @AfterMethod
+  	  void teardown() {
+        if (driver != null) {
+            driver.quit();
+        }
+        driver.quit();
+    }
+	
+	@Test
+	public void newTab()
+	{
+
 		
 		driver.get("https://rahulshettyacademy.com/angularpractice/");
 		driver.switchTo().newWindow(WindowType.TAB);
@@ -37,6 +56,14 @@ public class NewTab {
 		
 		
 
+	}
+	
+	@Test
+	public void qaClick()
+	{
+		driver.get("http://qaclickacademy.com/");
+		System.out.println(driver.getTitle());
+	
 	}
 
 }
