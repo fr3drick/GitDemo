@@ -14,26 +14,23 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class NewTab {
 	WebDriver driver;
 	
-    	@BeforeSuite
-    		static void setupClass() {
+    	@BeforeClass
+ 
     		static void setupAll() {
         	WebDriverManager.chromedriver().setup();
-   	}}
+   	}
     	@BeforeMethod
-    		void setupTest() {
-  		void setup() {
+    		void setup() {
         	driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.manage().window().maximize();
-   	}}
+   	}
 	
 	    @AfterMethod
   	  void teardown() {
         if (driver != null) {
             driver.quit();
-        }
-        driver.quit();
-    }
+   	}
 	
 	@Test
 	public void newTab()
