@@ -82,7 +82,7 @@ public class MiscFunc {
 			int respCode = conn.getResponseCode();
 			System.out.println(w.getAttribute("href") +" " +respCode);
 			
-			sa.assertTrue(respCode<400, "The link with Text: "+ w.getText()+" failed with code "+respCode);
+			sa.assertTrue(respCode<500, "The link with Text: "+ w.getText()+" failed with code "+respCode);
 		}
 
 		sa.assertAll();
