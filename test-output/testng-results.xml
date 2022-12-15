@@ -2,28 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-30T03:17:54 WAT" name="Default suite" finished-at="2022-07-30T03:18:06 WAT" duration-ms="11608">
+  <suite started-at="2022-12-15T08:44:50 WAT" name="Default suite" finished-at="2022-12-15T08:44:50 WAT" duration-ms="75">
     <groups>
     </groups>
-    <test started-at="2022-07-30T03:17:54 WAT" name="Default test" finished-at="2022-07-30T03:18:06 WAT" duration-ms="11608">
-      <class name="FredAutomation.JavaScriptPractice">
-        <test-method is-config="true" signature="setupAll()[pri:0, instance:FredAutomation.JavaScriptPractice@7334aada]" started-at="2022-07-30T03:17:54 WAT" name="setupAll" finished-at="2022-07-30T03:17:55 WAT" duration-ms="391" status="PASS">
+    <test started-at="2022-12-15T08:44:50 WAT" name="Default test" finished-at="2022-12-15T08:44:50 WAT" duration-ms="75">
+      <class name="FredAutomation.StreamsJ">
+        <test-method signature="streamsJ()[pri:0, instance:FredAutomation.StreamsJ@72f926e6]" started-at="2022-12-15T08:44:50 WAT" name="streamsJ" finished-at="2022-12-15T08:44:50 WAT" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupAll -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:FredAutomation.JavaScriptPractice@7334aada]" started-at="2022-07-30T03:17:55 WAT" name="setup" finished-at="2022-07-30T03:17:57 WAT" duration-ms="1974" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="jsPractice()[pri:0, instance:FredAutomation.JavaScriptPractice@7334aada]" started-at="2022-07-30T03:17:57 WAT" name="jsPractice" finished-at="2022-07-30T03:18:06 WAT" duration-ms="9002" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- jsPractice -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:FredAutomation.JavaScriptPractice@7334aada]" started-at="2022-07-30T03:18:06 WAT" name="teardown" finished-at="2022-07-30T03:18:06 WAT" duration-ms="212" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- FredAutomation.JavaScriptPractice -->
+        </test-method> <!-- streamsJ -->
+      </class> <!-- FredAutomation.StreamsJ -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

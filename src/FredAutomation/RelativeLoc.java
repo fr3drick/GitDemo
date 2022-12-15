@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.manager.SeleniumManager;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -22,7 +23,9 @@ public class RelativeLoc {
 	@BeforeClass
 
 		static void setupAll() {
-    	WebDriverManager.chromedriver().setup();
+//    	WebDriverManager.chromedriver().setup();
+		SeleniumManager.getInstance();
+
 	}
 	@BeforeMethod
 		void setup() {
