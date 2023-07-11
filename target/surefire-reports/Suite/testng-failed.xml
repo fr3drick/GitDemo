@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="3" parallel="tests" name="MiscFunc(failed)" verbose="0">
+  <test thread-count="3" parallel="tests" name="CalendarPractice(failed)" verbose="0">
     <classes>
-      <class name="FredAutomation.MiscFunc">
+      <class name="FredAutomation.CalendarPractice">
         <methods>
-          <include name="miscFns"/>
-          <include name="setup"/>
-          <include name="setupAll"/>
           <include name="teardown"/>
+          <include name="calendarPractice"/>
+          <include name="setupAll"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- FredAutomation.MiscFunc -->
+      </class> <!-- FredAutomation.CalendarPractice -->
     </classes>
-  </test> <!-- MiscFunc(failed) -->
+  </test> <!-- CalendarPractice(failed) -->
 </suite> <!-- Failed suite [Suite] -->

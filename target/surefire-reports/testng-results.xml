@@ -2,224 +2,145 @@
 <testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-04T20:29:11 WAT" name="Suite" finished-at="2022-08-04T20:34:03 WAT" duration-ms="292258">
+  <suite started-at="2022-12-15T09:05:03 WAT" name="Suite" finished-at="2022-12-15T09:06:37 WAT" duration-ms="93248">
     <groups>
     </groups>
-    <test started-at="2022-08-04T20:29:11 WAT" name="SortedTable" finished-at="2022-08-04T20:30:46 WAT" duration-ms="95393">
-      <class name="FredAutomation.SortedTable">
-        <test-method is-config="true" signature="setupAll()[pri:0, instance:FredAutomation.SortedTable@67d48005]" started-at="2022-08-04T20:29:11 WAT" name="setupAll" finished-at="2022-08-04T20:29:16 WAT" duration-ms="5255" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupAll -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:FredAutomation.SortedTable@67d48005]" started-at="2022-08-04T20:29:16 WAT" name="setup" finished-at="2022-08-04T20:30:31 WAT" duration-ms="74948" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="sortedTables()[pri:0, instance:FredAutomation.SortedTable@67d48005]" started-at="2022-08-04T20:30:31 WAT" name="sortedTables" finished-at="2022-08-04T20:30:40 WAT" duration-ms="8376" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sortedTables -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:FredAutomation.SortedTable@67d48005]" started-at="2022-08-04T20:30:40 WAT" name="teardown" finished-at="2022-08-04T20:30:46 WAT" duration-ms="6774" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- FredAutomation.SortedTable -->
-    </test> <!-- SortedTable -->
-    <test started-at="2022-08-04T20:29:11 WAT" name="RelativeLoc" finished-at="2022-08-04T20:30:47 WAT" duration-ms="96169">
+    <test started-at="2022-12-15T09:05:03 WAT" name="RelativeLoc" finished-at="2022-12-15T09:05:12 WAT" duration-ms="8967">
       <class name="FredAutomation.RelativeLoc">
-        <test-method is-config="true" signature="setupAll()[pri:0, instance:FredAutomation.RelativeLoc@1ab3a8c8]" started-at="2022-08-04T20:29:11 WAT" name="setupAll" finished-at="2022-08-04T20:29:16 WAT" duration-ms="4522" status="PASS">
+        <test-method is-config="true" signature="setupAll()[pri:0, instance:FredAutomation.RelativeLoc@6aba2b86]" started-at="2022-12-15T09:05:03 WAT" name="setupAll" finished-at="2022-12-15T09:05:03 WAT" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupAll -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:FredAutomation.RelativeLoc@1ab3a8c8]" started-at="2022-08-04T20:29:16 WAT" name="setup" finished-at="2022-08-04T20:30:31 WAT" duration-ms="75623" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:FredAutomation.RelativeLoc@6aba2b86]" started-at="2022-12-15T09:05:03 WAT" name="setup" finished-at="2022-12-15T09:05:07 WAT" duration-ms="3957" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="relativeLoc()[pri:0, instance:FredAutomation.RelativeLoc@1ab3a8c8]" started-at="2022-08-04T20:30:31 WAT" name="relativeLoc" finished-at="2022-08-04T20:30:38 WAT" duration-ms="7281" status="PASS">
+        <test-method signature="relativeLoc()[pri:0, instance:FredAutomation.RelativeLoc@6aba2b86]" started-at="2022-12-15T09:05:07 WAT" name="relativeLoc" finished-at="2022-12-15T09:05:12 WAT" duration-ms="4731" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- relativeLoc -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:FredAutomation.RelativeLoc@1ab3a8c8]" started-at="2022-08-04T20:30:38 WAT" name="teardown" finished-at="2022-08-04T20:30:47 WAT" duration-ms="8654" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FredAutomation.RelativeLoc@6aba2b86]" started-at="2022-12-15T09:05:12 WAT" name="teardown" finished-at="2022-12-15T09:05:12 WAT" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- FredAutomation.RelativeLoc -->
     </test> <!-- RelativeLoc -->
-    <test started-at="2022-08-04T20:30:46 WAT" name="ChromeOps" finished-at="2022-08-04T20:31:17 WAT" duration-ms="30328">
-      <class name="FredAutomation.ChromeOps">
-        <test-method is-config="true" signature="setupAll()[pri:0, instance:FredAutomation.ChromeOps@222545dc]" started-at="2022-08-04T20:30:46 WAT" name="setupAll" finished-at="2022-08-04T20:30:55 WAT" duration-ms="8456" status="PASS">
+    <test started-at="2022-12-15T09:05:03 WAT" name="SortedTable" finished-at="2022-12-15T09:05:14 WAT" duration-ms="10490">
+      <class name="FredAutomation.SortedTable">
+        <test-method is-config="true" signature="setupAll()[pri:0, instance:FredAutomation.SortedTable@564fabc8]" started-at="2022-12-15T09:05:03 WAT" name="setupAll" finished-at="2022-12-15T09:05:03 WAT" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupAll -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:FredAutomation.ChromeOps@222545dc]" started-at="2022-08-04T20:30:55 WAT" name="setup" finished-at="2022-08-04T20:31:09 WAT" duration-ms="14127" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:FredAutomation.SortedTable@564fabc8]" started-at="2022-12-15T09:05:03 WAT" name="setup" finished-at="2022-12-15T09:05:07 WAT" duration-ms="3919" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="chromeOps()[pri:0, instance:FredAutomation.ChromeOps@222545dc]" started-at="2022-08-04T20:31:09 WAT" name="chromeOps" finished-at="2022-08-04T20:31:13 WAT" duration-ms="3816" status="PASS">
+        <test-method signature="sortedTables()[pri:0, instance:FredAutomation.SortedTable@564fabc8]" started-at="2022-12-15T09:05:07 WAT" name="sortedTables" finished-at="2022-12-15T09:05:14 WAT" duration-ms="6190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortedTables -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FredAutomation.SortedTable@564fabc8]" started-at="2022-12-15T09:05:14 WAT" name="teardown" finished-at="2022-12-15T09:05:14 WAT" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- FredAutomation.SortedTable -->
+    </test> <!-- SortedTable -->
+    <test started-at="2022-12-15T09:05:12 WAT" name="ChromeOps" finished-at="2022-12-15T09:05:15 WAT" duration-ms="2994">
+      <class name="FredAutomation.ChromeOps">
+        <test-method is-config="true" signature="setupAll()[pri:0, instance:FredAutomation.ChromeOps@57a3af25]" started-at="2022-12-15T09:05:12 WAT" name="setupAll" finished-at="2022-12-15T09:05:12 WAT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAll -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:FredAutomation.ChromeOps@57a3af25]" started-at="2022-12-15T09:05:12 WAT" name="setup" finished-at="2022-12-15T09:05:14 WAT" duration-ms="1423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="chromeOps()[pri:0, instance:FredAutomation.ChromeOps@57a3af25]" started-at="2022-12-15T09:05:14 WAT" name="chromeOps" finished-at="2022-12-15T09:05:15 WAT" duration-ms="1235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chromeOps -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:FredAutomation.ChromeOps@222545dc]" started-at="2022-08-04T20:31:13 WAT" name="teardown" finished-at="2022-08-04T20:31:17 WAT" duration-ms="3925" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FredAutomation.ChromeOps@57a3af25]" started-at="2022-12-15T09:05:15 WAT" name="teardown" finished-at="2022-12-15T09:05:15 WAT" duration-ms="317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- FredAutomation.ChromeOps -->
     </test> <!-- ChromeOps -->
-    <test started-at="2022-08-04T20:30:47 WAT" name="FilterTable" finished-at="2022-08-04T20:31:17 WAT" duration-ms="29550">
-      <class name="FredAutomation.FilterTable">
-        <test-method is-config="true" signature="setupAll()[pri:0, instance:FredAutomation.FilterTable@2d7275fc]" started-at="2022-08-04T20:30:47 WAT" name="setupAll" finished-at="2022-08-04T20:30:56 WAT" duration-ms="8743" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupAll -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:FredAutomation.FilterTable@2d7275fc]" started-at="2022-08-04T20:30:56 WAT" name="setup" finished-at="2022-08-04T20:31:09 WAT" duration-ms="13224" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="filterTable()[pri:0, instance:FredAutomation.FilterTable@2d7275fc]" started-at="2022-08-04T20:31:09 WAT" name="filterTable" finished-at="2022-08-04T20:31:15 WAT" duration-ms="6117" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- filterTable -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:FredAutomation.FilterTable@2d7275fc]" started-at="2022-08-04T20:31:15 WAT" name="teardown" finished-at="2022-08-04T20:31:17 WAT" duration-ms="1462" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- FredAutomation.FilterTable -->
-    </test> <!-- FilterTable -->
-    <test started-at="2022-08-04T20:31:17 WAT" name="StreamsJ" finished-at="2022-08-04T20:31:17 WAT" duration-ms="26">
+    <test started-at="2022-12-15T09:05:15 WAT" name="StreamsJ" finished-at="2022-12-15T09:05:15 WAT" duration-ms="14">
       <class name="FredAutomation.StreamsJ">
-        <test-method signature="streamsJ()[pri:0, instance:FredAutomation.StreamsJ@35cabb2a]" started-at="2022-08-04T20:31:17 WAT" name="streamsJ" finished-at="2022-08-04T20:31:17 WAT" duration-ms="24" status="PASS">
+        <test-method signature="streamsJ()[pri:0, instance:FredAutomation.StreamsJ@6069db50]" started-at="2022-12-15T09:05:15 WAT" name="streamsJ" finished-at="2022-12-15T09:05:15 WAT" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- streamsJ -->
       </class> <!-- FredAutomation.StreamsJ -->
     </test> <!-- StreamsJ -->
-    <test started-at="2022-08-04T20:29:11 WAT" name="NewTab" finished-at="2022-08-04T20:32:23 WAT" duration-ms="191984">
-      <class name="FredAutomation.NewTab">
-        <test-method is-config="true" signature="setupAll()[pri:0, instance:FredAutomation.NewTab@5b239d7d]" started-at="2022-08-04T20:29:11 WAT" name="setupAll" finished-at="2022-08-04T20:29:16 WAT" duration-ms="4873" status="PASS">
+    <test started-at="2022-12-15T09:05:14 WAT" name="FilterTable" finished-at="2022-12-15T09:05:20 WAT" duration-ms="6595">
+      <class name="FredAutomation.FilterTable">
+        <test-method is-config="true" signature="setupAll()[pri:0, instance:FredAutomation.FilterTable@6adbc9d]" started-at="2022-12-15T09:05:14 WAT" name="setupAll" finished-at="2022-12-15T09:05:14 WAT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupAll -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:FredAutomation.NewTab@5b239d7d]" started-at="2022-08-04T20:29:16 WAT" name="setup" finished-at="2022-08-04T20:30:31 WAT" duration-ms="75320" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:FredAutomation.FilterTable@6adbc9d]" started-at="2022-12-15T09:05:14 WAT" name="setup" finished-at="2022-12-15T09:05:15 WAT" duration-ms="1582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="newTab()[pri:0, instance:FredAutomation.NewTab@5b239d7d]" started-at="2022-08-04T20:30:31 WAT" name="newTab" finished-at="2022-08-04T20:31:12 WAT" duration-ms="41152" status="PASS">
+        <test-method signature="filterTable()[pri:0, instance:FredAutomation.FilterTable@6adbc9d]" started-at="2022-12-15T09:05:15 WAT" name="filterTable" finished-at="2022-12-15T09:05:20 WAT" duration-ms="4796" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- newTab -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:FredAutomation.NewTab@5b239d7d]" started-at="2022-08-04T20:31:12 WAT" name="teardown" finished-at="2022-08-04T20:31:17 WAT" duration-ms="4481" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:FredAutomation.NewTab@5b239d7d]" started-at="2022-08-04T20:31:17 WAT" name="setup" finished-at="2022-08-04T20:31:24 WAT" duration-ms="7213" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="qaClick()[pri:0, instance:FredAutomation.NewTab@5b239d7d]" started-at="2022-08-04T20:31:24 WAT" name="qaClick" finished-at="2022-08-04T20:32:03 WAT" duration-ms="38996" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- qaClick -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:FredAutomation.NewTab@5b239d7d]" started-at="2022-08-04T20:32:03 WAT" name="teardown" finished-at="2022-08-04T20:32:23 WAT" duration-ms="19908" status="PASS">
+        </test-method> <!-- filterTable -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FredAutomation.FilterTable@6adbc9d]" started-at="2022-12-15T09:05:20 WAT" name="teardown" finished-at="2022-12-15T09:05:20 WAT" duration-ms="213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- FredAutomation.NewTab -->
-    </test> <!-- NewTab -->
-    <test started-at="2022-08-04T20:31:17 WAT" name="CalendarPractice" finished-at="2022-08-04T20:32:31 WAT" duration-ms="73566">
+      </class> <!-- FredAutomation.FilterTable -->
+    </test> <!-- FilterTable -->
+    <test started-at="2022-12-15T09:05:15 WAT" name="CalendarPractice" finished-at="2022-12-15T09:05:48 WAT" duration-ms="32043">
       <class name="FredAutomation.CalendarPractice">
-        <test-method is-config="true" signature="setupAll()[pri:0, instance:FredAutomation.CalendarPractice@49ec71f8]" started-at="2022-08-04T20:31:17 WAT" name="setupAll" finished-at="2022-08-04T20:31:18 WAT" duration-ms="1273" status="PASS">
+        <test-method is-config="true" signature="setupAll()[pri:0, instance:FredAutomation.CalendarPractice@1a482e36]" started-at="2022-12-15T09:05:15 WAT" name="setupAll" finished-at="2022-12-15T09:05:15 WAT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupAll -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:FredAutomation.CalendarPractice@49ec71f8]" started-at="2022-08-04T20:31:18 WAT" name="setup" finished-at="2022-08-04T20:31:21 WAT" duration-ms="3229" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:FredAutomation.CalendarPractice@1a482e36]" started-at="2022-12-15T09:05:15 WAT" name="setup" finished-at="2022-12-15T09:05:17 WAT" duration-ms="1231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="calendarPractice()[pri:0, instance:FredAutomation.CalendarPractice@49ec71f8]" started-at="2022-08-04T20:31:21 WAT" name="calendarPractice" finished-at="2022-08-04T20:32:22 WAT" duration-ms="60452" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- calendarPractice -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:FredAutomation.CalendarPractice@49ec71f8]" started-at="2022-08-04T20:32:22 WAT" name="teardown" finished-at="2022-08-04T20:32:31 WAT" duration-ms="8608" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- FredAutomation.CalendarPractice -->
-    </test> <!-- CalendarPractice -->
-    <test started-at="2022-08-04T20:32:31 WAT" name="JavaScriptPractice" finished-at="2022-08-04T20:34:02 WAT" duration-ms="91674">
-      <class name="FredAutomation.JavaScriptPractice">
-        <test-method is-config="true" signature="setupAll()[pri:0, instance:FredAutomation.JavaScriptPractice@6adbc9d]" started-at="2022-08-04T20:32:31 WAT" name="setupAll" finished-at="2022-08-04T20:32:38 WAT" duration-ms="7112" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupAll -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:FredAutomation.JavaScriptPractice@6adbc9d]" started-at="2022-08-04T20:32:38 WAT" name="setup" finished-at="2022-08-04T20:32:55 WAT" duration-ms="16935" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="jsPractice()[pri:0, instance:FredAutomation.JavaScriptPractice@6adbc9d]" started-at="2022-08-04T20:32:55 WAT" name="jsPractice" finished-at="2022-08-04T20:33:53 WAT" duration-ms="57800" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- jsPractice -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:FredAutomation.JavaScriptPractice@6adbc9d]" started-at="2022-08-04T20:33:53 WAT" name="teardown" finished-at="2022-08-04T20:34:02 WAT" duration-ms="9823" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- FredAutomation.JavaScriptPractice -->
-    </test> <!-- JavaScriptPractice -->
-    <test started-at="2022-08-04T20:31:17 WAT" name="AutomationPractice" finished-at="2022-08-04T20:34:03 WAT" duration-ms="165483">
-      <class name="FredAutomation.AutomationPractice">
-        <test-method is-config="true" signature="setupAll()[pri:0, instance:FredAutomation.AutomationPractice@74fe5c40]" started-at="2022-08-04T20:31:17 WAT" name="setupAll" finished-at="2022-08-04T20:31:18 WAT" duration-ms="1378" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupAll -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:FredAutomation.AutomationPractice@74fe5c40]" started-at="2022-08-04T20:31:18 WAT" name="setup" finished-at="2022-08-04T20:31:22 WAT" duration-ms="3343" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="automationPractice()[pri:0, instance:FredAutomation.AutomationPractice@74fe5c40]" started-at="2022-08-04T20:31:22 WAT" name="automationPractice" finished-at="2022-08-04T20:33:42 WAT" duration-ms="140268" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- automationPractice -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:FredAutomation.AutomationPractice@74fe5c40]" started-at="2022-08-04T20:33:42 WAT" name="teardown" finished-at="2022-08-04T20:34:03 WAT" duration-ms="20492" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- FredAutomation.AutomationPractice -->
-    </test> <!-- AutomationPractice -->
-    <test started-at="2022-08-04T20:32:24 WAT" name="MiscFunc" finished-at="2022-08-04T20:34:03 WAT" duration-ms="99354">
-      <class name="FredAutomation.MiscFunc">
-        <test-method is-config="true" signature="setupAll()[pri:0, instance:FredAutomation.MiscFunc@57a3af25]" started-at="2022-08-04T20:32:24 WAT" name="setupAll" finished-at="2022-08-04T20:32:37 WAT" duration-ms="13046" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupAll -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:FredAutomation.MiscFunc@57a3af25]" started-at="2022-08-04T20:32:37 WAT" name="setup" finished-at="2022-08-04T20:32:55 WAT" duration-ms="17889" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="miscFns()[pri:0, instance:FredAutomation.MiscFunc@57a3af25]" started-at="2022-08-04T20:32:55 WAT" name="miscFns" finished-at="2022-08-04T20:33:57 WAT" duration-ms="62037" status="FAIL">
-          <exception class="java.net.UnknownHostException">
+        <test-method signature="calendarPractice()[pri:0, instance:FredAutomation.CalendarPractice@1a482e36]" started-at="2022-12-15T09:05:17 WAT" name="calendarPractice" finished-at="2022-12-15T09:05:47 WAT" duration-ms="30531" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[www.soapui.org]]>
+              <![CDATA[element click intercepted: Element <iframe width="700" height="500" data-src="../../demoSite/practice/datepicker/default.html" class="demo-frame lazyloaded" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" cd_frame_id_="5afe2f5d43c4009ec07fc52c35fa356d"></iframe> is not clickable at point (466, 612). Other element would receive the click: <iframe id="aswift_4" name="aswift_4" style="width: 1005px !important; height: 124px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="124" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20221207/r20110914/zrt_lookup.html?fsb=1#RS-1-&amp;adk=1812271801&amp;client=ca-pub-2878895907861435&amp;fa=1&amp;ifi=5&amp;uci=a!5&amp;btvi=3&amp;xpc=M5ni9km9XA&amp;p=https%3A//www.globalsqa.com" data-google-container-id="a!5" data-google-query-id="CL6DtIeV-_sCFQFzGwodj34M8A" data-load-complete="true"></iframe>
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7b55b547778a877bb56b1fe785ed5b05, clickElement {id=fa6bfa67-d9e6-4eb8-b4af-d87bccc49989}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:51846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51846/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7b55b547778a877bb56b1fe785ed5b05)] -> css selector: a[class*='ui-state-default']]
+Session ID: 7b55b547778a877bb56b1fe785ed5b05]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.net.UnknownHostException: www.soapui.org
-at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:564)
-at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-at java.base/java.net.Socket.connect(Socket.java:633)
-at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
-at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:174)
-at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
-at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)
-at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)
-at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
-at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:378)
-at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)
-at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)
-at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
-at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)
-at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:142)
-at FredAutomation.MiscFunc.miscFns(MiscFunc.java:81)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <iframe width="700" height="500" data-src="../../demoSite/practice/datepicker/default.html" class="demo-frame lazyloaded" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" cd_frame_id_="5afe2f5d43c4009ec07fc52c35fa356d"></iframe> is not clickable at point (466, 612). Other element would receive the click: <iframe id="aswift_4" name="aswift_4" style="width: 1005px !important; height: 124px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="124" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20221207/r20110914/zrt_lookup.html?fsb=1#RS-1-&amp;adk=1812271801&amp;client=ca-pub-2878895907861435&amp;fa=1&amp;ifi=5&amp;uci=a!5&amp;btvi=3&amp;xpc=M5ni9km9XA&amp;p=https%3A//www.globalsqa.com" data-google-container-id="a!5" data-google-query-id="CL6DtIeV-_sCFQFzGwodj34M8A" data-load-complete="true"></iframe>
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7b55b547778a877bb56b1fe785ed5b05, clickElement {id=fa6bfa67-d9e6-4eb8-b4af-d87bccc49989}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:51846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51846/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7b55b547778a877bb56b1fe785ed5b05)] -> css selector: a[class*='ui-state-default']]
+Session ID: 7b55b547778a877bb56b1fe785ed5b05
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at FredAutomation.CalendarPractice.calendarPractice(CalendarPractice.java:73)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
@@ -234,17 +155,109 @@ at org.testng.TestRunner.run(TestRunner.java:601)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
 at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:471)
 at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.net.UnknownHostException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calendarPractice -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FredAutomation.CalendarPractice@1a482e36]" started-at="2022-12-15T09:05:47 WAT" name="teardown" finished-at="2022-12-15T09:05:48 WAT" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- FredAutomation.CalendarPractice -->
+    </test> <!-- CalendarPractice -->
+    <test started-at="2022-12-15T09:05:03 WAT" name="NewTab" finished-at="2022-12-15T09:05:56 WAT" duration-ms="52398">
+      <class name="FredAutomation.NewTab">
+        <test-method is-config="true" signature="setupAll()[pri:0, instance:FredAutomation.NewTab@436813f3]" started-at="2022-12-15T09:05:03 WAT" name="setupAll" finished-at="2022-12-15T09:05:03 WAT" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAll -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:FredAutomation.NewTab@436813f3]" started-at="2022-12-15T09:05:03 WAT" name="setup" finished-at="2022-12-15T09:05:07 WAT" duration-ms="3959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="newTab()[pri:0, instance:FredAutomation.NewTab@436813f3]" started-at="2022-12-15T09:05:07 WAT" name="newTab" finished-at="2022-12-15T09:05:34 WAT" duration-ms="26898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTab -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FredAutomation.NewTab@436813f3]" started-at="2022-12-15T09:05:34 WAT" name="teardown" finished-at="2022-12-15T09:05:35 WAT" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:FredAutomation.NewTab@436813f3]" started-at="2022-12-15T09:05:35 WAT" name="setup" finished-at="2022-12-15T09:05:36 WAT" duration-ms="1279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="qaClick()[pri:0, instance:FredAutomation.NewTab@436813f3]" started-at="2022-12-15T09:05:36 WAT" name="qaClick" finished-at="2022-12-15T09:05:56 WAT" duration-ms="19743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qaClick -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FredAutomation.NewTab@436813f3]" started-at="2022-12-15T09:05:56 WAT" name="teardown" finished-at="2022-12-15T09:05:56 WAT" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- FredAutomation.NewTab -->
+    </test> <!-- NewTab -->
+    <test started-at="2022-12-15T09:05:20 WAT" name="AutomationPractice" finished-at="2022-12-15T09:06:22 WAT" duration-ms="61072">
+      <class name="FredAutomation.AutomationPractice">
+        <test-method is-config="true" signature="setupAll()[pri:0, instance:FredAutomation.AutomationPractice@1bd4fdd]" started-at="2022-12-15T09:05:20 WAT" name="setupAll" finished-at="2022-12-15T09:05:20 WAT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAll -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:FredAutomation.AutomationPractice@1bd4fdd]" started-at="2022-12-15T09:05:20 WAT" name="setup" finished-at="2022-12-15T09:05:22 WAT" duration-ms="1372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="automationPractice()[pri:0, instance:FredAutomation.AutomationPractice@1bd4fdd]" started-at="2022-12-15T09:05:22 WAT" name="automationPractice" finished-at="2022-12-15T09:06:21 WAT" duration-ms="59371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automationPractice -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FredAutomation.AutomationPractice@1bd4fdd]" started-at="2022-12-15T09:06:21 WAT" name="teardown" finished-at="2022-12-15T09:06:22 WAT" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- FredAutomation.AutomationPractice -->
+    </test> <!-- AutomationPractice -->
+    <test started-at="2022-12-15T09:05:56 WAT" name="JavaScriptPractice" finished-at="2022-12-15T09:06:23 WAT" duration-ms="27538">
+      <class name="FredAutomation.JavaScriptPractice">
+        <test-method is-config="true" signature="setupAll()[pri:0, instance:FredAutomation.JavaScriptPractice@3349e9bb]" started-at="2022-12-15T09:05:56 WAT" name="setupAll" finished-at="2022-12-15T09:05:56 WAT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAll -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:FredAutomation.JavaScriptPractice@3349e9bb]" started-at="2022-12-15T09:05:56 WAT" name="setup" finished-at="2022-12-15T09:05:57 WAT" duration-ms="1292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="jsPractice()[pri:0, instance:FredAutomation.JavaScriptPractice@3349e9bb]" started-at="2022-12-15T09:05:57 WAT" name="jsPractice" finished-at="2022-12-15T09:06:23 WAT" duration-ms="26014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jsPractice -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FredAutomation.JavaScriptPractice@3349e9bb]" started-at="2022-12-15T09:06:23 WAT" name="teardown" finished-at="2022-12-15T09:06:23 WAT" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- FredAutomation.JavaScriptPractice -->
+    </test> <!-- JavaScriptPractice -->
+    <test started-at="2022-12-15T09:05:48 WAT" name="MiscFunc" finished-at="2022-12-15T09:06:37 WAT" duration-ms="49098">
+      <class name="FredAutomation.MiscFunc">
+        <test-method is-config="true" signature="setupAll()[pri:0, instance:FredAutomation.MiscFunc@293a5bf6]" started-at="2022-12-15T09:05:48 WAT" name="setupAll" finished-at="2022-12-15T09:05:48 WAT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAll -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:FredAutomation.MiscFunc@293a5bf6]" started-at="2022-12-15T09:05:48 WAT" name="setup" finished-at="2022-12-15T09:05:49 WAT" duration-ms="1592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="miscFns()[pri:0, instance:FredAutomation.MiscFunc@293a5bf6]" started-at="2022-12-15T09:05:49 WAT" name="miscFns" finished-at="2022-12-15T09:06:36 WAT" duration-ms="47196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- miscFns -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:FredAutomation.MiscFunc@57a3af25]" started-at="2022-08-04T20:33:57 WAT" name="teardown" finished-at="2022-08-04T20:34:03 WAT" duration-ms="6368" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FredAutomation.MiscFunc@293a5bf6]" started-at="2022-12-15T09:06:36 WAT" name="teardown" finished-at="2022-12-15T09:06:37 WAT" duration-ms="306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

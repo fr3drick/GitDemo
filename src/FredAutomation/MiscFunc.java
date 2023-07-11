@@ -41,6 +41,7 @@ public class MiscFunc {
 		void setup() {
 		ChromeOptions options = new ChromeOptions();
 		options.setAcceptInsecureCerts(true);
+		options.addArguments("--remote-allow-origins=*");
     	driver = new ChromeDriver(options);
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 	driver.manage().window().maximize();

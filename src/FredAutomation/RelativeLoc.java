@@ -17,44 +17,45 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import static org.openqa.selenium.support.locators.RelativeLocator.*;
 
 public class RelativeLoc {
-	
+
 	WebDriver driver;
-	
+
 	@BeforeClass
 
-		static void setupAll() {
+	static void setupAll() {
 //    	WebDriverManager.chromedriver().setup();
 		SeleniumManager.getInstance();
 
 	}
+
 	@BeforeMethod
-		void setup() {
+	void setup() {
 		ChromeOptions options = new ChromeOptions();
 		options.setAcceptInsecureCerts(true);
-    	driver = new ChromeDriver(options);
-	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-	driver.manage().window().maximize();
+		options.addArguments("--remote-allow-origins=*");
+		driver = new ChromeDriver(options);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.manage().window().maximize();
 	}
 
-    @AfterMethod
-	  void teardown() {
-   
-    	driver.quit();
+	@AfterMethod
+	void teardown() {
+
+		driver.quit();
 	}
 
-    @Test
-	public void relativeLoc() 
-	{
-		
+	@Test
+	public void relativeLoc() {
+
 		driver.get("https://rahulshettyacademy.com/angularpractice/");
-		
-		//driver.findElement(with(By.tagName("input")).below(By.xpath("//label[text()='Name']"))).click();//sendKeys("Hello!");
+
+		// driver.findElement(with(By.tagName("input")).below(By.xpath("//label[text()='Name']"))).click();//sendKeys("Hello!");
 		driver.findElement(with(By.tagName("input")).above(By.xpath("//label[text()='Email']"))).sendKeys("Hello!");
 
-		//label#exampleCheck1
+		// label#exampleCheck1
 		driver.findElement(with(By.tagName("input")).toLeftOf(By.cssSelector("label[for='exampleCheck1']"))).click();
 		driver.findElement(with(By.tagName("input")).below(By.cssSelector("label[for='dateofBirth']"))).click();
-		
+
 	}
 
 }

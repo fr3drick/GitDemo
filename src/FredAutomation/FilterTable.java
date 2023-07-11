@@ -19,45 +19,43 @@ import org.testng.asserts.Assertion;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class FilterTable {
-	
+
 	WebDriver driver;
-	
+
 	@BeforeClass
 
-		static void setupAll() {
+	static void setupAll() {
 //    	WebDriverManager.chromedriver().setup();
 		SeleniumManager.getInstance();
 	}
+
 	@BeforeMethod
-		void setup() {
+	void setup() {
 		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--remote-allow-origins=*");
 		options.setAcceptInsecureCerts(true);
-    	driver = new ChromeDriver(options);
-	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-	driver.manage().window().maximize();
+		driver = new ChromeDriver(options);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.manage().window().maximize();
 	}
 
-    @AfterMethod
-	  void teardown() {
-   
-    	driver.quit();
+	@AfterMethod
+	void teardown() {
+
+		driver.quit();
 	}
 
-    @Test
-	public void filterTable()
-	{
+	@Test
+	public void filterTable() {
 
-		
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/offers");
 		driver.findElement(By.id("search-field")).sendKeys("Orange");
 		List<WebElement> filterResult = driver.findElements(By.xpath("//tr/td[1]"));
-		List<WebElement> checkedResult = filterResult.stream().filter(s->s.getText().contains("Orange")).collect(Collectors.toList());
-		System.out.println("filterResult: "+filterResult.size()+"\ncheckedResult: "+checkedResult.size());
+		List<WebElement> checkedResult = filterResult.stream().filter(s -> s.getText().contains("Orange"))
+				.collect(Collectors.toList());
+		System.out.println("filterResult: " + filterResult.size() + "\ncheckedResult: " + checkedResult.size());
 		Assertion a = new Assertion();
-		a.assertEquals(filterResult.size(), checkedResult.size(),"some filtered results do not contain keyword");
-		
-		
-		
+		a.assertEquals(filterResult.size(), checkedResult.size(), "some filtered results do not contain keyword");
 
 	}
 

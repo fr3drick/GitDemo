@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="FredAutomation.FilterTable">
+      <class name="FredAutomation.AutomationPractice">
         <methods>
           <include name="setupAll"/>
-          <include name="filterTable"/>
-          <include name="teardown"/>
           <include name="setup"/>
+          <include name="teardown"/>
+          <include name="automationPractice"/>
         </methods>
-      </class> <!-- FredAutomation.FilterTable -->
+      </class> <!-- FredAutomation.AutomationPractice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

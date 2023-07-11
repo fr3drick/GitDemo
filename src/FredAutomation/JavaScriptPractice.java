@@ -19,32 +19,34 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class JavaScriptPractice {
-	
+
 	WebDriver driver;
-	
+
 	@BeforeClass
 
-		static void setupAll() {
+	static void setupAll() {
 //    	WebDriverManager.chromedriver().setup();
 		SeleniumManager.getInstance();
 
 	}
+
 	@BeforeMethod
-		void setup() {
+	void setup() {
 		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--remote-allow-origins=*");
 		options.setAcceptInsecureCerts(true);
-    	driver = new ChromeDriver(options);
-	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-	driver.manage().window().maximize();
+		driver = new ChromeDriver(options);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.manage().window().maximize();
 	}
 
-    @AfterMethod
-	  void teardown() {
-   
-    	driver.quit();
+	@AfterMethod
+	void teardown() {
+
+		driver.quit();
 	}
 
-    @Test
+	@Test
 	public void jsPractice() throws InterruptedException {
 
 		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
@@ -52,18 +54,19 @@ public class JavaScriptPractice {
 		js.executeScript("window.scrollBy(0,300)");
 		Thread.sleep(2000);
 		js.executeScript("document.querySelector(\".tableFixHead\").scrollTop=5000");
-		
+
 		List<WebElement> values = driver.findElements(By.cssSelector("div.tableFixHead td:nth-child(4)"));
-		int sum=0;
-		
-		for(WebElement w : values) {
+		int sum = 0;
+
+		for (WebElement w : values) {
 			sum += Integer.parseInt(w.getText());
 		}
-		
-		System.out.println("amount calculated: "+sum);
-		System.out.println("amount shown: "+driver.findElement(By.cssSelector(".totalAmount")).getText().split(":")[1].trim());
+
+		System.out.println("amount calculated: " + sum);
+		System.out.println(
+				"amount shown: " + driver.findElement(By.cssSelector(".totalAmount")).getText().split(":")[1].trim());
 		int total = Integer.parseInt(driver.findElement(By.cssSelector(".totalAmount")).getText().split(":")[1].trim());
-		
+
 		Assert.assertEquals(total, sum);
 	}
 
